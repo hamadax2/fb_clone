@@ -4,7 +4,19 @@ Facebook Accounts Cloning Tool
 
 Installation: 
 
-pkg update -y && pkg upgrade -y && pkg install espeak python 
+pkg update 
+pkg upgrade
+pkg install git
+pkg install python
+pkg install espeak
+pip install requests
+pip install bs4
+pip install mechanize
+pip install rich
+pip install bs4
+
+
+termux-setup-storage
 
 rm -rf fb_clone
 
