@@ -15,7 +15,6 @@ pip install mechanize
 pip install rich
 pip install bs4
 
-
 termux-setup-storage
 
 rm -rf fb_clone
